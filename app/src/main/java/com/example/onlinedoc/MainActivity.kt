@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     // !!! IMPORTANT: Replace with your actual OpenAI API Key !!!
     // For production apps, DO NOT hardcode your API key.
     // Use a backend server or more secure methods.
-    private val OPENAI_API_KEY = "sk-qopksyugdcrdnafcehrtuvjfpqpnkkznzagihikhcwsnyinj" // <--- 替换为你的 API Key
+    private val OPENAI_API_KEY = "" // <--- 替换为你的 API Key
 
     private val OPENAI_URL = "https://api.siliconflow.cn/v1"
     private val JSON_MEDIA_TYPE = "application/json; charset=utf-8".toMediaTypeOrNull()
